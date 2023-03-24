@@ -1,9 +1,12 @@
-const App = ()=>{
-   return (
+import IndexRoute from "./routes";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+const App = () => {
+  return (
     <>
-       <h1>Hello User</h1>
+      <IndexRoute />
     </>
-   )
-}
+  );
+};
 
 export default App;
