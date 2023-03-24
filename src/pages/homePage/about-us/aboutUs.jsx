@@ -1,8 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import './aboutUs.scss';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { BitmapData } from './jsonData';
 import Slider from 'react-slick';
 import ractangle from '../../../assets/about/images-pictures/Rectangle.png';
@@ -15,6 +13,8 @@ import ovel1 from '../../../assets/about/images-pictures/Oval1.png';
 import ovel2 from '../../../assets/about/images-pictures/Oval2.png';
 import chareTable from '../../../assets/about/images-pictures/chare-table.png';
 import manImg from '../../../assets/about/images-pictures/man-img.png';
+import { Link } from 'react-router-dom';
+import { BsFillBarChartFill } from 'react-icons/bs'
 
 const AboutUs = () => {
 
@@ -127,6 +127,41 @@ const AboutUs = () => {
               <Col className='percentage'>
                 <h1>5.000</h1>
                 <p>Projects complete</p>
+              </Col>
+            </Row>
+          </div>
+
+          <div className='feature-section' >
+            <Row>
+              <Col lg={5} md={5} >
+                <div className='feature-left' >
+                  <h5>Features</h5>
+                  <p>
+                    Long run, and work as an extension of the merchant's team.
+                  </p>
+                  <Link to="/">Read More</Link>
+                </div>
+              </Col>
+              <Col lg={7} md={5} >
+                <div className='feature-right' >
+                  <Row>
+                    <Col>
+                      <div className='professional' >
+                        <b>
+                          <BsFillBarChartFill />
+                        </b>
+                        <h4>Professional</h4>
+                        <p>Full service range including technical skills, design.</p>
+                      </div>
+                    </Col>
+                    <Col>
+                        <div className='accessibility'>
+                           <h4>Accessibility</h4>
+                           <p>Business understanding,<br /> ability to put themselves.</p>
+                        </div>
+                    </Col>
+                  </Row>
+                </div>
               </Col>
             </Row>
           </div>

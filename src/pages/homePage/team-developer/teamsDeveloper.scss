@@ -1,0 +1,66 @@
+.teams-developer-wrapper {
+  background: #28293E;
+
+  .teams-developer-container {
+    margin: 50px 0 50px 0;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+
+    h5 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 2px;
+      text-align: left;
+      color: #EF6D58;
+    }
+
+    .left-right {
+
+      h2 {
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 64px;
+      }
+
+      svg {
+        float: right;
+        font-size: 32px;
+        top: 100px;
+        position: relative;
+        margin-left: 10px;
+      }
+    }
+
+    .profile-images {
+      margin-top: 30px;
+      .images {
+        font-family: sans-serif;
+        font-style: normal;
+        img {
+          display: inline-block;
+          border: 1px solid #3A3C56;
+          margin: 15px;
+          padding-top: 25px;
+          width: 260px;
+          height: 272px;
+        }
+      }
+
+      h4{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-left: 15px;
+      }
+      p{
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFFA3;
+      }
+    }
+
+  }
+}
