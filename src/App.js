@@ -1,9 +1,14 @@
-const App = ()=>{
-   return (
+import IndexRoute from "./routes";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const App = () => {
+  return (
     <>
-       <h1>Hello User</h1>
+      <IndexRoute />
     </>
-   )
-}
+  );
+};
 
 export default App;
