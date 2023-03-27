@@ -1,0 +1,182 @@
+.pricing-section-wrapper {
+  .pricing-section-container {
+    .pricing-heading {
+      font-family: sans-serif;
+      font-style: normal;
+
+      h5 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #EF6D58;
+      }
+
+      h2 {
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: #391400;
+      }
+    }
+
+    .popular-pricing:hover {
+      background-color: white;
+    }
+
+    .popular-pricing {
+      margin-top: 0;
+      border: 1px solid #F3D1BF;
+      font-family: sans-serif;
+      font-style: normal;
+      padding: 30px;
+
+      p {
+        background: #EF6D58;
+        border-radius: 19px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+        display: inline-block;
+        padding: 0 15px;
+
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #EF6D58;
+      }
+
+      h3 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #391400;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 0.64);
+
+      }
+
+      ul {
+        padding-left: 0;
+
+        li {
+          display: block;
+
+          span {
+            svg {
+              color: #EF6D58;
+              margin-bottom: 4px;
+              margin-right: 10px;
+            }
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #391400;
+
+
+          }
+        }
+      }
+
+      button {
+        background: #EF6D58;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #391400;
+        border-color: white;
+        width: 150px;
+        height: 42px;
+      }
+
+    }
+
+    .pricing-cards {
+      border: 1px solid #F3D1BF;
+      font-family: sans-serif;
+      font-style: normal;
+      padding: 30px;
+      margin-top: 32px;
+
+
+      h5 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #EF6D58;
+      }
+
+      h3 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #391400;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 0.64);
+
+      }
+
+      ul {
+        padding-left: 0;
+
+        li {
+          display: block;
+
+          span {
+            svg {
+              color: #EF6D58;
+              margin-bottom: 4px;
+              margin-right: 10px;
+            }
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #391400;
+
+
+          }
+        }
+      }
+
+      button {
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #391400;
+        border-color: white;
+        width: 150px;
+        height: 42px;
+      }
+
+    }
+  }
+}
