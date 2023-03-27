@@ -3,16 +3,8 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import './aboutUs.scss';
 import { BitmapData } from './jsonData';
 import Slider from 'react-slick';
-import ractangle from '../../../assets/about/images-pictures/Rectangle.png';
-import ractangle1 from '../../../assets/about/images-pictures/Rectangle1.png';
-import ractangle2 from '../../../assets/about/images-pictures/Rectangle2.png';
-import ractangle3 from '../../../assets/about/images-pictures/Rectangle3.png';
-import path from '../../../assets/about/images-pictures/Path.png';
-import ovel from '../../../assets/about/images-pictures/Oval.png';
-import ovel1 from '../../../assets/about/images-pictures/Oval1.png';
-import ovel2 from '../../../assets/about/images-pictures/Oval2.png';
-import chareTable from '../../../assets/about/images-pictures/chare-table.png';
-import manImg from '../../../assets/about/images-pictures/man-img.png';
+import groupPicture from '../../../assets/about/images-pictures/group-picture.png';
+
 import { Link } from 'react-router-dom';
 import { BsFillBarChartFill } from 'react-icons/bs'
 
@@ -82,23 +74,9 @@ const AboutUs = () => {
 
           <Row>
             <Col className='left-col-img' >
-              <div style={{ backgroundImage: `url(${ractangle})` }} className="background-img" >
-                <img src={path} alt="path" className='path' />
-                <div className='squre-ovel' >
-                  <div className='ovel' >
-                    <img src={ovel2} alt="ovel" />
-                    <img src={ovel} alt="ovel" />
-                    <img src={ovel1} alt="ovel" />
-                  </div>
-                  <div className='border-line' >
-                    <img src={ractangle2} alt="img" />
-                    <img src={ractangle3} alt="img" style={{ marginTop: "5px" }} />
-                  </div>
-                  <img src={ractangle1} alt="squre" />
-                </div>
-                <img src={chareTable} alt="chare-table" className='chae-table' />
+              <div className='group-picture' >
+                <img src={groupPicture} alt="group-picture" />
               </div>
-              <img src={manImg} alt="man-img" className='man-img' />
             </Col>
 
             <Col>
@@ -155,10 +133,10 @@ const AboutUs = () => {
                       </div>
                     </Col>
                     <Col>
-                        <div className='accessibility'>
-                           <h4>Accessibility</h4>
-                           <p>Business understanding,<br /> ability to put themselves.</p>
-                        </div>
+                      <div className='accessibility'>
+                        <h4>Accessibility</h4>
+                        <p>Business understanding,<br /> ability to put themselves.</p>
+                      </div>
                     </Col>
                   </Row>
                 </div>

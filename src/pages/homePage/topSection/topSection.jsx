@@ -4,17 +4,7 @@ import { Link } from 'react-router-dom';
 import './topSection.scss';
 import starImg from '../../../assets/Star.png';
 import Bitmap from '../../../assets/Bitmap.png';
-import girlImg from '../../../assets/girlImg.png';
-import lapTopImg from '../../../assets/laptop.png'
-import ovel from '../../../assets/Oval.png';
-import stars from '../../../assets/Shape.png';
-import path from '../../../assets/Path.png';
-import border from '../../../assets/border.png';
-import ractangle from '../../../assets/Rectangle.png';
-import ractangle1 from '../../../assets/Rectangle1.png';
-import ractangle2 from '../../../assets/Rectangle2.png';
-import ractangle3 from '../../../assets/Rectangle3.png';
-import ractangle4 from '../../../assets/Rectangle4.png';
+import topSectionImg from '../../../assets/top-section-img.png'
 
 const TopSection = () => {
   return (
@@ -45,43 +35,8 @@ const TopSection = () => {
 
             </Col>
             <Col className='top-right' >
-              <div className='d-flex' >
-                <div className='laptop-img' >
-                  <img src={lapTopImg} alt="laptop-img" />
-                </div>
-                <div className='over-star' >
-                  <img src={ovel} alt="ovel" className='ovel' />
-                  <img src={stars} alt="stars" className='stars' />
-                </div>
-                <div className='path-img' >
-                  <img src={path} alt="path" />
-                </div>
-              </div>
-              <div  className='d-flex' >
-                <div className='letter-line' >
-                  <img src={ractangle} alt="ractangle" />
-                  <div className='border-lines' >
-                  <img src={ovel} alt="ovel" className='ovel-circle' />
-                    <ul>
-                      <li>
-                        <img src={ractangle1} alt="ractangle" style={{marginBottom : '8px'}} />
-                      </li>
-                      <li>
-                        <img src={ractangle2} alt="ractangle" />
-                      </li>
-                      <li>
-                        <img src={ractangle3} alt="ractangle" />
-                      </li>
-                      <li>
-                        <img src={ractangle4} alt="ractangle" />
-                      </li>
-                    </ul>
-
-                  </div>
-                </div>
-                <div className='girl-image' >
-                  <img src={girlImg} alt="girl-img" />
-                </div>
+              <div className='top-section-img' >
+                <img src={topSectionImg} alt="top-section-img" />
               </div>
             </Col>
           </Row>
