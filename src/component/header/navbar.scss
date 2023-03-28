@@ -60,5 +60,57 @@
         color: darkgoldenrod;
       }
     }
+
+    @media screen and (max-width: 767px) {
+      display: block;
+
+      .brand-name {
+        margin-left: 5px;
+      }
+
+      .contact-link {
+        border: none;
+        margin-top: 10px;
+        padding: 0;
+        margin-left: 5px;
+
+      }
+
+      .nav-link {
+        display: flex;
+        text-align: left;
+
+        a {
+          margin: 0 0 0 5px;
+        }
+
+        a:hover {
+          margin: 0 0 0 5px;
+          background: white;
+          color: #28293E;
+          font-size: 20px;
+        }
+      }
+    }
+
+    @media screen and (min-width : 768px) and (max-width : 991px) {
+      display: flex;
+
+      .navbar-collapse {
+        display: flex;
+
+      }
+
+      .brand-name {
+        margin-left: 20px;
+      }
+
+      .nav-link {
+        margin-top: 5px;
+        a {
+          margin: 0;
+        }
+      }
+    }
   }
 }

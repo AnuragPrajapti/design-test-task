@@ -1,5 +1,6 @@
 .pricing-section-wrapper {
   .pricing-section-container {
+    margin-bottom: 50px;
     .pricing-heading {
       font-family: sans-serif;
       font-style: normal;
@@ -106,6 +107,10 @@
         height: 42px;
       }
 
+      button:hover{
+        background-color: white;
+      }
+
     }
 
     .pricing-cards {
@@ -176,6 +181,28 @@
         width: 150px;
         height: 42px;
       }
+
+      button:hover{
+        background-color: #EF6D58;
+      }
+
+    }
+
+    @media screen and (max-width : 480px) {
+      padding: 0 20px;
+      .pricing-heading{
+        h5{
+            margin-left: 5px;
+        }
+         h2{
+           font-size: 38px;
+           line-height: 48px;
+         }
+      }
+    }
+
+    @media screen and (min-width : 481px) and (max-width: 768px) {
+     
 
     }
   }

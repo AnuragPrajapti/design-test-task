@@ -28,11 +28,14 @@
     .client-side-container-left {
       margin-top: 50px;
 
+      .meta-inc:hover {
+        background: white;
+      }
+
       .meta-inc {
 
         border: 1px solid #F3D1BF;
         border-top-left-radius: 6px;
-        background: white;
         padding: 30px;
         font-family: sans-serif;
 
@@ -65,6 +68,11 @@
             margin-top: 14px;
             color: #391400;
             margin-left: 20px;
+
+            @media screen and (max-width: 768px) {
+              margin-left: 30px;
+              font-size: 20px;
+            }
 
             span {
               font-size: 16px;
@@ -113,6 +121,11 @@
             margin-top: 14px;
             color: #391400;
             margin-left: 20px;
+
+            @media screen and (max-width: 768px) {
+              margin-left: 30px;
+              font-size: 20px;
+            }
 
             span {
               font-size: 16px;
@@ -164,6 +177,11 @@
             color: #391400;
             margin-left: 20px;
 
+            @media screen and (max-width: 768px) {
+              margin-left: 30px;
+              font-size: 20px;
+            }
+
             span {
               font-size: 16px;
               font-weight: 400;
@@ -212,6 +230,11 @@
             color: #391400;
             margin-left: 20px;
 
+            @media screen and (max-width: 768px) {
+              margin-left: 30px;
+              font-size: 20px;
+            }
+
             span {
               font-size: 16px;
               font-weight: 400;
@@ -242,6 +265,53 @@
         width: 150px;
         height: 38px;
       }
+
+      button:hover{
+        background-color: #EF6D58;
+      }
     }
+
+    @media screen and (max-width : 480px) {
+      .client-side-container-left {
+        padding: 0 20px 0 5px;
+
+        .twitor {
+          margin-top: 20px;
+        }
+
+      }
+
+      .client-side-container-right {
+        margin-top: 20px;
+        padding: 0 5px 0 20px;
+
+        .whochat {
+          margin-top: 20px;
+        }
+
+      }
+    }
+
+    @media screen and (min-width : 481px) and (max-width: 768px) {
+      .client-side-container-left {
+        padding: 0 20px 0 5px;
+
+        .twitor {
+          margin-top: 20px;
+        }
+
+      }
+
+      .client-side-container-right {
+        margin-top: 20px;
+        padding: 0 5px 0 20px;
+
+        .whochat {
+          margin-top: 20px;
+        }
+
+      }
+    }
+
   }
 }

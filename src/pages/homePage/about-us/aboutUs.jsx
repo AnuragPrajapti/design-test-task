@@ -19,6 +19,7 @@ const AboutUs = () => {
     speed: 5000,
     autoplaySpeed: 5000,
     cssEase: "linear",
+    arrows : false,
     responsive: [
       {
         breakpoint: 1024,

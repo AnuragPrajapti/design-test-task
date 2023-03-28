@@ -15,10 +15,10 @@
       }
     }
 
-
-    .group-picture{
+    .group-picture {
       margin-top: 50px;
-      img{
+
+      img {
         width: 500px;
         height: 536px;
       }
@@ -80,6 +80,9 @@
         border-radius: 0;
         border: none;
         margin-top: 20px;
+      }
+      button:hover{
+        background-color: #EF6D58;
       }
     }
 
@@ -152,8 +155,11 @@
       }
 
       .feature-right {
-        .professional {
+        .professional:hover {
           background-color: white;
+        }
+
+        .professional {
           display: inline-block;
           border: 1px solid #F3D1BF;
           padding: 30px 25px;
@@ -189,13 +195,14 @@
           }
         }
 
-        .accessibility{
+        .accessibility {
           border: 1px solid #F3D1BF;
           display: inline-block;
           padding: 20px;
           margin-top: 76px;
           position: relative;
           right: 24px;
+
           h4 {
             margin-top: 40px;
             line-height: 24px;
@@ -216,5 +223,82 @@
         }
       }
     }
+
+    @media screen and (max-width : 480px) {
+      .group-picture {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          white-space: break-spaces;
+          width: 320px;
+          height: 360px;
+        }
+      }
+
+      .right-col-details {
+        padding-left: 25px;
+
+        h1 {
+          font-size: 42px;
+          line-height: 50px;
+          letter-spacing: 0;
+        }
+
+        p {
+          margin-left: 5px;
+        }
+      }
+
+      .percentage-experience {
+        padding: 0 25px;
+      }
+
+
+      .feature-section {
+        padding: 0 25px;
+
+        .feature-right {
+
+          .professional {
+            margin-top: 20px;
+          }
+
+          .accessibility {
+            display: block;
+            position: relative;
+            right: 0;
+            padding: 0 20px;
+            margin: 0 25px;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width : 481px) and (max-width: 768px) {
+      .group-picture {
+        img {
+          white-space: break-spaces;
+        }
+      }
+
+      .right-col-details {
+        padding-left: 25px;
+      }
+
+      .percentage-experience {
+        padding: 0 25px;
+      }
+
+      .feature-section {
+         padding-left: 20px;
+      }
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width : 992px) {}
+
+
   }
 }
