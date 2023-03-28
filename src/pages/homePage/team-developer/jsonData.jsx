@@ -29,5 +29,29 @@ export const teamsDeveloperData = [
     name: 'Izabella Tabakova',
     designation: 'Product Designer'
   },
+  {
+    id: 4,
+    profileImage: Designer,
+    name: 'Azah Anyeni',
+    designation: 'Designer'
+  },
+  {
+    id: 5,
+    profileImage: reactDeveloper,
+    name: 'Roelof Bekkenenks',
+    designation: 'React Developer'
+  },
+  {
+    id: 6,
+    profileImage: Illustrator,
+    name: 'Leonardo Oliveira',
+    designation: 'Illustrator'
+  },
+  {
+    id: 7,
+    profileImage: productDesigner,
+    name: 'Izabella Tabakova',
+    designation: 'Product Designer'
+  },
 
 ]

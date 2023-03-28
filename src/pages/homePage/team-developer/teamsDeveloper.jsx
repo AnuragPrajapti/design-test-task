@@ -7,18 +7,16 @@ import Slider from 'react-slick';
 
 const TeamsDeveloper = () => {
 
-
-
   const [sliderRef, setSliderRef] = useState(null)
 
   const settings = {
     dots: false,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     autoplay: false,
-    speed: 5000,
-    autoplaySpeed: 5000,
+    // speed: 5000,
+    // autoplaySpeed: 5000,
     cssEase: "linear",
     arrows: false,
     responsive: [
@@ -64,6 +62,7 @@ const TeamsDeveloper = () => {
       }
     ]
   };
+  
   return (
     <div className='teams-developer-wrapper' >
       <Container>
