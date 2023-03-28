@@ -4,20 +4,20 @@
   display: flex;
 
   .top-section-container {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
+    font-family: 'Epilogue', sans-serif;
 
     .top-left {
+      margin-top: 20px;
       b {
         color: #EF6D58;
         font-size: 16px;
         margin-bottom: 10px;
-        font-family: sans-serif;
         letter-spacing: 1px;
       }
 
       h1 {
-        font-family: sans-serif;
         font-size: 48px;
         font-weight: 800;
         line-height: 60px;
@@ -37,7 +37,8 @@
 
       p {
         font-style: normal;
-        font-family: sans-serif;
+        font-family: 'Epilogue', sans-serif;
+
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
