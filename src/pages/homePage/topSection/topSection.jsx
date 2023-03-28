@@ -15,8 +15,7 @@ const TopSection = () => {
             <Col className='top-left'  >
               <b>Modern Studio</b>
               <div>
-                <img src={starImg} alt="star-img" />
-                <h1>We’re Help  <br /> To  Build Your<br /> Dream Project</h1>
+                <h1>We’re  <span style={{ backgroundImage : `url(${starImg})` }}  className="star-img">Help</span><br /> To  Build Your<br />   Dream Project</h1>
                 <p>Agency provides a full service range including technical<br /> skills, design, business understanding.</p>
               </div>
               <div className='button-contact' >

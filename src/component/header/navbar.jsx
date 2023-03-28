@@ -8,9 +8,9 @@ function HeaderNavbar() {
       <Navbar expand="lg">
         <Container>
           <div className='navbar-container' >
-            <Navbar.Brand href="#" className='brand-name' >Agency</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
+              <Navbar.Brand href="#" className='brand-name' >Agency</Navbar.Brand>
               <Nav
                 className="nav-link"
                 style={{ maxHeight: '100px' }}
@@ -21,8 +21,8 @@ function HeaderNavbar() {
                 <Link to="/" >Pricing</Link>
                 <Link to="/" >Blog</Link>
               </Nav>
+              <Button variant='link' className='contact-link' >CONTACT</Button>
             </Navbar.Collapse>
-               <Button  variant='link' >CONTACT</Button>
           </div>
         </Container>
       </Navbar>

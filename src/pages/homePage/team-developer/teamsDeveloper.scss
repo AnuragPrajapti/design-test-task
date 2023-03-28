@@ -35,9 +35,11 @@
 
     .profile-images {
       margin-top: 30px;
+
       .images {
         font-family: sans-serif;
         font-style: normal;
+
         img {
           display: inline-block;
           border: 1px solid #3A3C56;
@@ -48,18 +50,101 @@
         }
       }
 
-      h4{
+      h4 {
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
         margin-left: 15px;
       }
-      p{
+
+      p {
         margin-left: 15px;
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFFA3;
       }
+    }
+
+    @media screen and (max-width : 480px) {
+      padding: 0 20px;
+
+      .left-right {
+        display: block;
+
+        h2 {
+          font-size: 32px;
+        }
+
+        svg {
+          position: relative;
+          top: 0;
+          left: 0;
+          right: 0;
+          margin-right: 15px;
+        }
+      }
+
+      .profile-images {
+        margin-left: 12px;
+
+        h4 {
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+
+    @media screen and (min-width : 481px) and (max-width: 768px) {
+
+      .left-right {
+        display: block;
+
+        h2 {
+          font-size: 42px;
+        }
+
+        svg {
+          position: relative;
+          top: 0;
+          left: 0;
+          right: 0;
+          margin-right: 15px;
+        }
+      }
+
+      .profile-images {
+
+
+        .images{
+          margin: 0 !important;
+          img{
+            margin: 0 !important;
+          }
+        }
+
+      }
+
+
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width : 992px) {
+      .left-right {
+        display: block;
+
+
+        svg {
+          position: relative;
+          top: 0;
+          left: 0;
+          right: 0;
+          margin-right: 15px;
+        }
+      }
+
     }
 
   }

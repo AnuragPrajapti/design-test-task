@@ -21,7 +21,7 @@ const ClientSide = () => {
           </Row>
 
           <Row>
-            <Col style={{ paddingRight : '0px' }}>
+            <Col style={{ paddingRight: '0px' }}>
               <div className='client-side-container-left' >
                 <div className='meta-inc' >
                   <div className='svg-icons' >
@@ -54,7 +54,7 @@ const ClientSide = () => {
                 </div>
               </div>
             </Col>
-            <Col style={{ paddingLeft : '0px'}}>
+            <Col style={{ paddingLeft: '0px' }}>
               <div className='client-side-container-right'>
                 <div className='photogram' >
                   <div className='svg-icons' >
@@ -90,11 +90,11 @@ const ClientSide = () => {
           </Row>
 
           <Row>
-             <Col>
-               <div className='button-see-all' >
-                   <Button>See All</Button>
-               </div>
-             </Col>
+            <Col>
+              <div className='button-see-all' >
+                <Button>See All</Button>
+              </div>
+            </Col>
           </Row>
         </div>
       </Container>
