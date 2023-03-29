@@ -54,7 +54,7 @@ const AboutUs = () => {
     ]
   };
   return (
-    <div className='about-us-wrapper' >
+    <div className='about-us-wrapper' id='about' >
       <Container>
         <div className='about-us-container' >
           <Row>

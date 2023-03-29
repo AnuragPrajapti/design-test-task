@@ -8,7 +8,7 @@ import topSectionImg from '../../../assets/top-section-img.png'
 
 const TopSection = () => {
   return (
-    <div className='top-section-wrapper' >
+    <div className='top-section-wrapper' id='top-section' >
       <Container>
         <div className='top-section-container' >
           <Row>

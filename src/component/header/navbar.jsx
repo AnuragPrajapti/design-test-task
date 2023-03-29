@@ -1,8 +1,29 @@
+import { useEffect, useState } from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './navbar.scss'
 
 function HeaderNavbar() {
+
+  const [active, setActive] = useState('top-section')
+
+
+  useEffect(() => {
+    handleNavigate('top-section')
+  }, [])
+
+  const handleNavigate = (id) => {
+    setActive(id);
+    const getId = document.getElementById(id);
+
+    getId && getId.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'start'
+    });
+
+  }
+
   return (
     <div className='navbar-wrapper' >
       <Navbar expand="lg">
@@ -16,9 +37,26 @@ function HeaderNavbar() {
                 style={{ maxHeight: '100px' }}
                 navbarScroll
               >
-                <Link to="/" >About</Link>
-                <Link to="/" >Services</Link>
-                <Link to="/" >Pricing</Link>
+                <Link
+                  to="/"
+                  onClick={() => handleNavigate('top-section')}
+                  className={`${active ? 'top-section' : 'active'}`}
+                >top-section</Link>
+                <Link
+                  to="/"
+                  onClick={() => handleNavigate('about')}
+                  className={`${active ? 'about' : 'active'}`}
+                >About</Link>
+                <Link
+                  to="/"
+                  onClick={() => handleNavigate('services')}
+                  className={`${active ? 'services' : 'active'}`}
+                >Services</Link>
+                <Link
+                  to="/"
+                  onClick={() => handleNavigate('pricing')}
+                  className={`${active ? 'pricing' : 'active'}`}
+                >Pricing</Link>
                 <Link to="/" >Blog</Link>
               </Nav>
               <Button variant='link' className='contact-link' >CONTACT</Button>

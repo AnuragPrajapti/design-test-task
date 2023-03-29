@@ -72,5 +72,23 @@
       }
 
     }
+
+    @media screen and (max-width: 480px) {
+        padding: 0 20px;
+        .faq-left-col{
+          button{
+            background-color: #EF6D58;
+          }
+          h3{
+            font-size: 28px;
+            line-height: 40px;
+          }
+        } 
+        .faq-right-col {
+          margin-top: 20px;
+          padding: 0;
+          margin-bottom: 50px;
+        }
+    }
   }
 }
