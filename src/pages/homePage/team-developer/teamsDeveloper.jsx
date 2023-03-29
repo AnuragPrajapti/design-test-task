@@ -64,7 +64,7 @@ const TeamsDeveloper = () => {
   };
   
   return (
-    <div className='teams-developer-wrapper' >
+    <div className='teams-developer-wrapper' id='blog' >
       <Container>
         <Row>
           <Col>

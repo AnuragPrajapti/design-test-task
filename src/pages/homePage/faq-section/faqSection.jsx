@@ -5,7 +5,7 @@ import './faqSection.scss';
 
 const FAQSection = () => {
   return (
-    <div className='faq-section-wrapper' >
+    <div className='faq-section-wrapper' id='faq' >
       <Container>
         <div className='faq-section-container' >
           <Row>
