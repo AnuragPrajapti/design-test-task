@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './navbar.scss'
+import componyLogo from '../../assets/logo.png';
 
 function HeaderNavbar() {
 
@@ -31,7 +32,7 @@ function HeaderNavbar() {
           <div className='navbar-container' >
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
-              <Navbar.Brand href="#" className='brand-name' >Agency</Navbar.Brand>
+              <Navbar.Brand href="#" className='brand-name' ><img src={componyLogo} alt="logo" /></Navbar.Brand>
               <Nav
                 className="nav-link"
                 style={{ maxHeight: '100px' }}
