@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutUs from './about-us/aboutUs'
 import ClientSide from './client-side/clientSide'
+import ContactUs from './contact-us/contactUs'
 import FAQSection from './faq-section/faqSection'
 import PricingSection from './pricing-section/pricingSection'
 import TeamsDeveloper from './team-developer/teamsDeveloper'
@@ -15,6 +16,7 @@ const HomeIndex = () => {
        <ClientSide />
        <PricingSection />
        <FAQSection />
+       <ContactUs />
     </div>
   )
 }
