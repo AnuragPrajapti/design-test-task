@@ -26,7 +26,7 @@ function HeaderNavbar() {
 
   return (
     <div className='navbar-wrapper' >
-      <Navbar expand="lg">
+      <Navbar expand="lg" fixed='top' style={{background : '#28293E'}} >
         <Container>
           <div className='navbar-container' >
             <Navbar.Toggle aria-controls="navbarScroll" />
